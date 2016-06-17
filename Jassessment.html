@@ -1,0 +1,79 @@
+<!DOCTYPE TYPE>
+<html>
+
+<head>
+    
+    <!-- boorstrap links for css -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <meta charset = "utf-8">
+    
+    <!--  css codes by self -->
+    <style>
+    
+    #image
+        {
+            padding-right: 6%;
+            
+        }
+        
+    .container.myself
+        {
+            padding-left: 15%;
+        }
+    </style>
+    
+    
+</head>
+    
+    <body>
+        
+        <!-- main div -->
+         <div class="container myself">
+             
+         <! -- Tax image -- >       
+         <img id ="image" src="tax.jpg"/>
+        
+            <!--headings -->
+            <h1 class="lead"> <strong>Enter Your Details</strong> </h1>
+            <h2 class="lead"> How much <strong><abbr > Tax </abbr ></strong>will I pay in 2016/17?</h2> <br>
+           
+             <!-- input form -->
+            <form class="form-inline">
+                <div class="form-group">
+                     <label for="exampleInputName2">Gross (pre-tax) Income : </label>
+                     <div class="input-group">
+                        <div class="input-group-addon">£</div>
+                        <input id="salary" type="number" class="form-control" />
+                     </div>
+                </div>
+            </form>
+            <!-- input form close and button div start -->
+             
+        <div>
+            
+        <button id="result" class="btn btn-success">Calculate</button>
+            
+        </div> <br>
+          
+        <!-- button div close and output div start -->
+             
+        <blockquote><div id="output"></div></blockquote>
+             
+        </div> <!-- main div close >
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
+        <!--  bootsrap Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        
+        <!-- main java script logic file -->
+        <script src="Jassessmentjs.js"></script>
+        
+    </body>
+</html>
